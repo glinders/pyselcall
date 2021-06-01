@@ -38,7 +38,7 @@ tuples with (frequency, duration) in Hz and ms, respectively.
 
 ### tones.Sine, tones.Saw, tones.Ramp, tones.Square
 
-The subclasses of tones.Tone infintely generates samples at a given rate from
+The subclasses of tones.Tone infinitely generates samples at a given rate from
 the waveform that they represent.
 
 ## Scripts
@@ -48,4 +48,4 @@ easily interface with (almost) all the features of the package.
 
 The one thing that you can do that the script doesn't do is that you can feed
 arbitrary frequencies and durations to the Melody class, and thus make any
-melody you like (I tried a simple music scale and it worked perfectly)
+melody you like (I tried a simple music scale, and it worked perfectly)

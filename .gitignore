@@ -1,0 +1,14 @@
+# PyCharm project files
+.idea
+# compiled python
+*.pyc
+# some PowerShell scripts
+*.ps1
+# PyInstaller files
+build
+dist
+*.spec
+# InnoSetup files
+innosetup/Output
+pyselcall.egg-info
+*.wav
