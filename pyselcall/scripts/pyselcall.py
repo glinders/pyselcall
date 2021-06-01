@@ -10,8 +10,8 @@ def run():
     parser.add_argument('numbers', type=str, help='numbers 0-9 and characters a-f, s for space (no tone)')
     parser.add_argument('-w', dest='waveform', default='Sine',
                         help='the waveform to use; one of Sine, Square, Saw, Ramp. Defaults to "Sine"')
-    parser.add_argument('-s', dest='standard', default='CCIR',
-                        help='the frequency standard to use; one of CCIR, EEA, EIA, ZVEI_I, ZVEI_II, ZVEI_III, DZVEI, PZVEI. Defaults to "CCIR"')
+    parser.add_argument('-s', dest='standard', default='NZES',
+                        help='the frequency standard to use; one of CCIR, EEA, EIA, ZVEI_I, ZVEI_II, ZVEI_III, DZVEI, PZVEI, NZES. Defaults to "NZES"')
 
     group = parser.add_mutually_exclusive_group()
 
